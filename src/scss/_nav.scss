@@ -1,0 +1,180 @@
+
+.navbar {
+    color: #dcdcdc;
+    width: 100%;
+    line-height: 2;
+    font-size: 14px;
+    padding: 0 30px;
+     
+      justify-content: flex-end !important; 
+      
+    .navbar-brand{
+        img{
+            width:120px;
+            margin-top:10px;
+        }
+    }
+    a {
+      text-decoration: none;
+      color: #dcdcdc;
+     &.navbar-brand {
+        float: left;
+        height: inherit;
+        line-height: 2;
+       
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 2px;
+        span {
+          font-size: 28px;
+          font-weight: 700;
+        }
+      }
+    }
+   
+    ul {
+      float: right;
+      list-style: none;
+      height: inherit;
+      line-height: 2;
+      padding: 0 50px;
+      margin-top: 20px;
+     li {
+        display: inline-block;
+        margin-left: 20px;
+        a {
+          display: block;
+          text-align: center;
+          text-transform: uppercase;
+          padding-bottom: 1px;
+          border-bottom: 3px solid transparent;
+          border-image:transparent;
+          transition: all 0.5s;
+          &:hover{
+            border-bottom:3px solid transparent;
+            border-image: linear-gradient(to right, #fe933b , #ffe870);
+            border-image-slice: 1;
+           color:#fff;
+             }
+         }
+      }
+    }
+    .navbar-toggler {
+      display: none;
+    }
+  }
+   /*responsive*/
+  @media (max-width: 767px) {
+    .hero-image img{
+      display:none !important;
+    }
+    .navbar a.navbar-brand{
+      float:right !important;
+    }
+    .navbar ul {
+      margin: 0;
+     padding:0;
+      li {
+          margin:0;
+          
+          a {
+            color:#3b62fe;
+            font-weight: bold;
+            opacity:.7;
+        min-width: 100px;
+        /*padding-left:33px;*/
+        text-align: right !important;
+        transition: color 0.2s;
+        border:none;
+        &:hover{
+            border-bottom: none;
+            color:#3b62fe;
+            opacity:1;
+             }
+      }
+    }
+  }
+  .navbar {
+    z-index: 10;
+    padding: 0;
+    position:relative;
+   
+    ul {
+      width: 100%;
+      
+      background-image: url("imgs/logo copy.png");
+      background-repeat: no-repeat;
+      background-position-x: 345px;
+      background-position-y: 16px;
+      background-color:#fff;
+      /* height: auto; */
+      height: 60vh;
+      max-height: 0;
+      overflow: hidden;
+      transition: all ease-in-out 0.3s;
+      &.open {
+        max-height: 100vh;
+      }
+      li {
+        
+        width: 100%;
+        padding: 10px 70px;
+        
+       }
+       .top-li{
+         padding-top:80px !important;
+       }
+    }
+    .navbar-toggler {
+      display: block;
+      position: absolute;
+      height: 40px;
+     top: 20px;
+      left: 20px;
+      background-color: transparent;
+      color: #fff;
+      outline: none;
+      padding: 0 5px;
+      cursor: pointer;
+      transition: color 0.2s;
+      span {
+        display: block;
+        content: '';
+        background-color: #3b62fe;
+        height: 2px;
+        width: 28px;
+        transition: all ease-in-out 0.3s;
+        &::before, &::after {
+          display: block;
+          content: '';
+          background-color: #3b62fe;
+          height: 2px;
+          width: 28px;
+          transition: all ease-in-out 0.3s;
+        }
+        &::before {
+          transform: translateY(-8px);
+        }
+        &::after {
+          transform: translateY(5px);
+        }
+      }
+      &.open-navbar-toggler span {
+        /* transform: rotate(90deg); */
+        background-color: transparent;
+        /* transform: scale(0.85) rotate(270deg); */
+        &::before {
+          transform: translateY(0px) rotate(45deg);
+          /* transform: translateY(0px) scale(0.75) rotate(45deg); */
+        }
+        &::after {
+          transform: translateY(-3px) rotate(-45deg);
+          /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
+        }
+      }
+    }
+  }
+}
+  
+  

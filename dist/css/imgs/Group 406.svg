@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576.5" height="291.334" viewBox="0 0 576.5 291.334">
+    <defs>
+        <style>
+            .cls-1{stroke:rgba(0,0,0,0);fill:url(#linear-gradient)}.cls-2{fill:#f5f5f5}
+        </style>
+        <linearGradient id="linear-gradient" x1=".107" x2=".211" y1=".294" y2=".079" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e19e36"/>
+            <stop offset="1" stop-color="#e3be4a"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_406" data-name="Group 406" transform="translate(.5 -1877.5)">
+        <path id="Rectangle_423" d="M0 0h576v290H0z" class="cls-2" data-name="Rectangle 423" transform="translate(0 1878)"/>
+        <path id="Intersection_2" d="M-2426.387 290.334a117.965 117.965 0 0 1-19.884-46.2c-8.139-43.15-24.832-34.469-53.381-25.789-20.959 6.373-48.3 12.746-83.348-1.386V0h355.51c-.346 3.171-.57 6.35-.623 9.544-.186 11.026 1.929 22.769 9.819 30.971 8.192 8.516 21.073 11.625 33.3 12.367 4.743.286 9.509.284 14.271.281 7.518 0 15.028-.008 22.432 1.127a75.265 75.265 0 0 1 52.027 34.7c15.129 24.882 13.184 55.885.883 81.4-36.231 75.155-7.408 64.829 30.738 103.558a64.558 64.558 0 0 1 11.7 16.387z" class="cls-1" data-name="Intersection 2" transform="translate(2583 1878)"/>
+    </g>
+</svg>

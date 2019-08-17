@@ -1,0 +1,31 @@
+.testmonials-section{
+    h3:after {
+        content: "";
+        background-image: linear-gradient(to right, #ffe870, #fe933b);
+        position: absolute;
+        bottom: -46%;
+        left: 55%;
+        margin: 0 auto;
+        height: 19%;
+        width: 68px;
+    }
+    .carousel-control-next-icon {
+        background-image: url( 'imgs/keyboard-right-arrow-button (1).svg');
+    }
+    .carousel-control-prev-icon {
+        background-image: url('imgs/left-arrow-angle.svg');
+    }
+    .carousel-indicators .active {
+        background-color: #e1e1e1;
+    }
+    .carousel-indicators li {
+        width: 10px;
+  height: 10px;
+  border-radius: 100%;
+        background-color: transparent;
+        border:solid 1px #b7b7b7;
+    }
+    .carousel-indicators  {
+ top:129%;
+}
+}

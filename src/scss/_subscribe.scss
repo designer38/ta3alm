@@ -1,0 +1,61 @@
+.subscribe-section{
+    margin-bottom:30px;
+    h3:after{
+        content: "";
+    background-image: linear-gradient(to right, #ffe870, #fe933b);
+    position: absolute;
+    bottom: -46%;
+    left: 59%;
+    margin: 0 auto;
+    height: 19%;
+    width: 68px;
+    }
+    .form-control{
+        border-radius: 20px;
+    }
+    .btn-8{
+        text-align: center;
+        width:140px;
+        background-color: #3b62fe;
+        color:#fff;
+        font-size: 14px !important;
+        text-decoration: none;
+        padding:8px 38px;
+        transition:all .2s;
+        border-radius: 25px;
+        border:solid 2px #3b62fe;
+        font-weight: bold;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+    .btn-8:hover{
+        background-color: transparent;
+        text-decoration: none;
+        color:#3b62fe;
+    }
+    .input-group>.input-group-prepend>.input-group-text {
+        border-top-right-radius: 20px; 
+        border-bottom-right-radius: 20px; 
+        position: absolute;
+        z-index: 10;
+    }
+    .input-group > .form-control:not(:first-child){
+        border-top-left-radius: 20px; 
+        border-bottom-left-radius: 20px; 
+        position:relative;
+        
+    }
+    input{
+        width:766px;
+    }
+    .input-group-text{
+        padding:0;
+        border-radius:20px;
+        
+    }
+    .sub-text{
+        font-size: 14px;
+  font-weight: bold;
+  color: #949494;
+
+    }
+}

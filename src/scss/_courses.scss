@@ -1,0 +1,51 @@
+.courses-section{
+    .card{
+        line-height: 1.85 !important;
+        text-align: right !important;
+        border:none !important;
+        outline: none !important;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        .wrapper{
+            padding:20px 20px;
+        .small-title{
+            line-height: 1.85 !important;
+            color:#949494;
+            font-size: 13px;
+        }
+        .main-title{
+            line-height: 1.85 !important;
+            color:#3b62fe;
+            font-size: 20px;
+        }
+        .small-describtion{
+            color:#000964;
+            font-size: 13px;
+        }
+
+    }
+}
+.btn-9{
+    padding:5px 12px;
+    border-radius: 25px;
+    width:140px;
+    font-weight: bold;
+    border:solid 2px #3b62fe;
+    color:#3b62fe;
+    background-color:transparent;
+    font-size: 14px !important;
+    text-decoration: none;
+   margin:50px auto;
+   display:block;
+   text-align: center;
+
+    transition:all .2s;
+}
+.btn-9:hover{
+    background-color: #3b62fe;
+    color:#fff;
+    
+    text-decoration: none;
+    
+    
+}
+}

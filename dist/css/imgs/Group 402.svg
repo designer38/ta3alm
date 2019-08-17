@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="392" viewBox="0 0 576 392">
+    <defs>
+        <style>
+            .cls-1{fill:#f7f7f7;stroke:#707070}.cls-2{fill:#3b62fe}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Group_402" data-name="Group 402">
+        <g id="Rectangle_417" class="cls-1" data-name="Rectangle 417">
+            <path d="M0 0h576v392H0z" class="cls-3"/>
+            <path d="M.5.5h575v391H.5z" class="cls-4"/>
+        </g>
+        <g id="Group_401" data-name="Group 401">
+            <path id="Subtraction_2" d="M-1786.689 734h-576v-96.8c.73-.278 1.449-.545 2.139-.794a58.975 58.975 0 0 0 12.871-6.451 52.64 52.64 0 0 0 9.959-8.7c5.432-6.109 9.636-13.6 12.853-22.914a145.523 145.523 0 0 0 6.212-28.216c1.333-10.014 2.132-20.7 2.9-31.044v-.016c3.411-45.7 6.939-92.961 56.213-107.569 5.718-1.7 11.145-3.577 16.128-5.594a133.187 133.187 0 0 0 13.391-6.271 99.217 99.217 0 0 0 20.166-14.239 104.467 104.467 0 0 0 14-15.935c3.991-5.517 7.56-11.323 11.012-16.938l.012-.02c6.18-10.054 12.57-20.451 21.907-30.307h376.233V734z" class="cls-2" data-name="Subtraction 2" transform="translate(2362.689 -342.197)"/>
+        </g>
+    </g>
+</svg>

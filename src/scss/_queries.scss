@@ -1,0 +1,125 @@
+
+
+  /*small phones to small tablets from 481 to 767*/
+@media only screen and (max-width: 767px) {
+  .hero-content{
+    text-align: center !important;
+    margin-top: 120px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+
+  }
+  .btn-3{
+    display: block !important;
+    margin:0 auto !important;
+    font-size: 12px !important;
+    text-align: center;
+    width: 211px !important;
+  }
+  .btn-4{
+    display: block !important;
+    font-size: 12px !important;
+    margin:0 auto !important;
+    text-align: center;
+    width: 211px !important;
+    margin-top: 10px !important;
+  }
+  .btn-wrapper2{
+    margin-top: 20px;
+   text-align: right;
+    display:block !important;
+  }
+  .btn-wrapper{
+    display:none !important;
+  }
+  .style-hr {
+    display:block !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-top:30px;
+    width:300px;
+
+}
+header{
+  background-image: url('imgs/Group 402.svg') ;
+  text-align: center !important;
+  h2{
+    text-align: center !important;
+  }
+  .hero-describtion{
+    text-align: center !important;
+  }
+}
+header .row{
+  display:block;
+}
+header .col{
+width:100% !important;
+flex-basis: 100% !important;
+
+}
+.courses-section .row{
+  display:block;
+  margin:0;
+}
+.courses-section .container{
+  padding:0;
+  margin:0;
+}
+
+.card{
+  margin-top:20px;
+}
+.carousel-control-next-icon{
+  display:none ;
+}
+.carousel-control-prev-icon{
+  display:none ;
+}
+.team-section {
+  padding-top: 30px;
+img{
+  display:none;
+}}
+.team-section .row{
+  display:block;
+}
+.team-section .col{
+width:100% !important;
+flex-basis: 100% !important;
+
+}
+.team-section{
+ 
+    background-image:  url('imgs/Group 406.svg')!important;
+  }
+  footer{
+    img{
+      display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+    h4{
+      text-align: center;
+    }
+    ul a{
+      font-size: 12px;
+    }
+    .social {
+     
+      text-align: center;
+  }
+    text-align: center;
+    ul{
+      justify-content: center;
+    }
+  }
+  
+}
+  
+  /*small phones from 0 to 480px*/
+  @media only screen and (max-width: 480px) {
+   
+}
